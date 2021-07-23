@@ -1,0 +1,103 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7400c968edc3b53751de082544b1ff61",
+    "packages": [
+        {
+            "name": "y2kaoz/common.php",
+            "version": "2021.07.05",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/y2kaoz/common.php.git",
+                "reference": "e841a936d14c6d1e2677bd05b985e349029e0377"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/y2kaoz/common.php/zipball/e841a936d14c6d1e2677bd05b985e349029e0377",
+                "reference": "e841a936d14c6d1e2677bd05b985e349029e0377",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Y2KaoZ\\Common\\": "src/Common"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Y2KaoZ",
+                    "email": "y2kaoz@gmail.com"
+                }
+            ],
+            "description": "Y2KaoZ's common PHP tools and utils.",
+            "support": {
+                "issues": "https://github.com/y2kaoz/common.php/issues",
+                "source": "https://github.com/y2kaoz/common.php/tree/2021.07.05"
+            },
+            "time": "2021-07-05T14:04:58+00:00"
+        },
+        {
+            "name": "y2kaoz/persistence.php",
+            "version": "2021.07.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/y2kaoz/persistence.php.git",
+                "reference": "5e84e669f141fbb4b19a5bcf2d1fa7dbc0911a16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/y2kaoz/persistence.php/zipball/5e84e669f141fbb4b19a5bcf2d1fa7dbc0911a16",
+                "reference": "5e84e669f141fbb4b19a5bcf2d1fa7dbc0911a16",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "y2kaoz/common.php": "^2021.07"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Y2KaoZ\\Persistence\\": "src/Persistence",
+                    "Example\\": "example"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Y2KaoZ",
+                    "email": "y2kaoz@gmail.com"
+                }
+            ],
+            "description": "Y2KaoZ's PHP persistence library.",
+            "support": {
+                "issues": "https://github.com/y2kaoz/persistence.php/issues",
+                "source": "https://github.com/y2kaoz/persistence.php/tree/2021.07.12"
+            },
+            "time": "2021-07-12T14:09:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

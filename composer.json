@@ -1,0 +1,22 @@
+{
+    "name": "y2kaoz/authentication.php",
+    "description": "Y2KaoZ's PHP Authentication Library.",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "authors": [ { "name": "Y2KaoZ", "email": "y2kaoz@gmail.com" } ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "y2kaoz/persistence.php": "^2021.07"
+    },
+    "autoload": {
+        "psr-4": {
+            "Y2KaoZ\\AuthN\\": "src/AuthN",
+            "Example\\": "example"
+        }
+    },
+    "scripts": {
+        "test": "clear && phpunit --bootstrap ./vendor/autoload.php --testdox ./tests/",
+        "check": "clear && phpcbf --standard=PSR12 src/ tests/ example/; psalm --no-cache"
+    }
+}
